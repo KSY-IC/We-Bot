@@ -1,5 +1,6 @@
 
-# We-Bot制御ライブラリ (C) 2020 KSY
+We-Bot制御ライブラリ (C) 2020 KSY
+
 KSY社製のWe-Botを制御するためのライブラリです。
 
 ## License
