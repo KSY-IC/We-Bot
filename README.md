@@ -20,8 +20,13 @@ python3 setup.py install
 ```
 
 ## 使用するハードウエア
+### 基板の説明
+![基板説明](https://github.com/KSY-IC/We-Bot/blob/main/image/board.png?raw=true )
+
+
 We Botではモーター制御にTexas Instruments社製　DRV8872を2個、バッテリーなどの電圧取得にTexas Instruments社製　TLA2024を一つ搭載しています。
 本ライブラリではこれらデバイスの制御に以下のハードウエアリソースを使用しています。
+
 
 ### GPIO
 | GPIOピン番号 | I/O | 用途 |
@@ -290,4 +295,7 @@ battery = webot.readVoltage(2)
 ---
 
 
+# 故障などの場合
+故障が疑われる場合や保守部品の入手などは問い合わせ窓口までお問い合わせください。
+https://raspberry-pi.ksyic.com/info/index
 
