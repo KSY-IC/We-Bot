@@ -98,7 +98,7 @@ webot.setSpeed(400,200)  # Set motor speed
 ```
 
 ## API
-本ライブラリのAPIを開設します。
+本ライブラリのAPIを解説します。
 
 ---
 
