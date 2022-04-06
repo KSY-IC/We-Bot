@@ -25,9 +25,12 @@ python3 setup.py install
 
 コネクタピン配置
 - CN1 電源接続
+
+| ピン番号 |  用途 |
 ----|----
 | 1 | +VIN |
 | 2 | GND |
+
 ※VINは7.5V-12Vの範囲で使用してください。
 
 - CN4/CN5 未使用
@@ -47,8 +50,8 @@ python3 setup.py install
 ----|----
 | 1 | +5V |
 | 2 | GND |
-| 3 | Analog In 0 |
-| 4 | Analog In 1 |
+| 3 | アナログ入力1 |
+| 4 | アナログ入力2 |
 
 
 We Botではモーター制御にTexas Instruments社製　DRV8872を2個、バッテリーなどの電圧取得にTexas Instruments社製　TLA2024を一つ搭載しています。
