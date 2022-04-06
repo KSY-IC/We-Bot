@@ -23,6 +23,33 @@ python3 setup.py install
 ### 基板の説明
 ![基板説明](https://github.com/KSY-IC/We-Bot/blob/main/image/board.png?raw=true )
 
+コネクタピン配置
+- CN1 電源接続
+----|----
+| 1 | +VIN |
+| 2 | GND |
+※VINは7.5V-12Vの範囲で使用してください。
+
+- CN4/CN5 未使用
+
+- CN6 MOTOR1/CN7 MOTOR2
+
+| ピン番号 |  用途 |
+----|----
+| 1 | MOTOR OUT1 |
+| 2 | MOTOR OUT2 |
+| 3 | 未接続 |
+
+
+- CN8 アナログ入力
+
+| ピン番号 |  用途 |
+----|----
+| 1 | +5V |
+| 2 | GND |
+| 3 | Analog In 0 |
+| 4 | Analog In 1 |
+
 
 We Botではモーター制御にTexas Instruments社製　DRV8872を2個、バッテリーなどの電圧取得にTexas Instruments社製　TLA2024を一つ搭載しています。
 本ライブラリではこれらデバイスの制御に以下のハードウエアリソースを使用しています。
